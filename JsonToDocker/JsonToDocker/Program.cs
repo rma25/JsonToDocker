@@ -108,3 +108,7 @@ foreach (var s in eligible)
 {
     Console.WriteLine($"      - {s.Name}={s.Value}");   
 }
+
+
+Console.WriteLine("Press any key to close...");
+Console.ReadKey();
